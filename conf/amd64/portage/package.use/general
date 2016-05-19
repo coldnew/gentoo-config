@@ -1,0 +1,24 @@
+sys-boot/refind btrfs ext4 hfs
+sys-kernel/linux-firmware savedconfig
+app-emulation/docker btrfs aufs
+app-emulation/qemu  static-user
+kde-plasma/plasma-desktop evdev touchpad ibus
+x11-base/xorg-server kdrive xephyr
+kde-plasma/plasma-meta bluetooth display-manager mediacenter networkmanager pulseaudio sddm wallpapers
+dev-qt/qtwayland wayland-compositor
+dev-qt/qtgui eglfs evdev  ibus 
+dev-qt/qt-creator android autotools baremetal clang cmake git valgrind 
+dev-lang/R java lapack openmp png readline 
+dev-lang/rust clang libcxx
+dev-python/PyQt5 designer multimedia serialport
+net-libs/webkit-gtk opengl -gles2
+media-libs/gst-plugins-bad -gles2 opengl
+app-editors/emacs imagemagick
+dev-qt/qtmultimedia gstreamer
+media-libs/libsdl2 gles
+sys-devel/llvm lldb
+dev-libs/weston colord editor examples fbdev wayland-compositor
+sys-block/gparted btrfs fat hfs ntfs
+www-client/firefox gtk3 pgo
+app-office/libreoffice gtk3
+app-i18n/fcitx gtk2 gtk3

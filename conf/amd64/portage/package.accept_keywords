@@ -1,0 +1,4 @@
+# required by sys-fs/hfsplusutils (argument)
+=sys-fs/hfsplusutils-1.0.4-r1 **
+# required by =gnome-color-manager-9999 (argument)
+=gnome-extra/gnome-color-manager-9999 **

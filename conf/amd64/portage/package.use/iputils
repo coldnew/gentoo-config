@@ -1,0 +1,657 @@
+net-misc/iputils -caps -filecaps
+# required by dev-scheme/guile-2.0.0::gentoo
+# required by =guile-2.0.0 (argument)
+>=dev-libs/boehm-gc-7.4.2 threads
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/power_assert-0.2.7 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/test-unit-3.1.7 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/rake-10.5.0 ruby_targets_ruby23
+# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.8::gentoo
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/json-1.8.3::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/rubygems-2.5.1 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/minitest-5.8.3 ruby_targets_ruby23
+# required by dev-ruby/json-1.8.3::gentoo[-test,ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.8::gentoo
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=virtual/rubygems-11 ruby_targets_ruby23
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.8::gentoo[rdoc]
+# required by dev-ruby/json-1.8.3::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/racc-1.4.14 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/net-telnet-0.1.1-r1 ruby_targets_ruby23
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.8::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/json-1.8.3 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo
+# required by dev-ruby/json-1.8.3::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.8::gentoo
+# required by dev-ruby/rdoc-4.2.1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+>=dev-ruby/did_you_mean-1.0.0 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.0::gentoo[rdoc]
+# required by dev-ruby/did_you_mean-1.0.0::gentoo[ruby_targets_ruby23]
+>=dev-ruby/rdoc-4.2.1 ruby_targets_ruby23
+# required by app-office/libreoffice-5.0.4.2::gentoo
+# required by libreoffice (argument)
+>=media-libs/harfbuzz-1.1.3 icu
+# required by www-client/firefox-44.0::gentoo
+# required by firefox (argument)
+>=dev-lang/python-2.7.11-r2:2.7 sqlite
+# required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_sparc,-qemu_softmmu_targets_or32,qemu_softmmu_targets_i386,-qemu_softmmu_targets_sh4eb,-qemu_softmmu_targets_mipsel,-qemu_softmmu_targets_ppcemb,-qemu_softmmu_targets_mips64,qemu_softmmu_targets_arm,-qemu_softmmu_targets_tricore,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_sparc64,-qemu_softmmu_targets_xtensaeb,opengl,-qemu_softmmu_targets_microblaze,-qemu_softmmu_targets_aarch64,-qemu_softmmu_targets_m68k,-qemu_softmmu_targets_mips64el,-qemu_softmmu_targets_lm32,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_unicore32,-qemu_softmmu_targets_mips,-qemu_softmmu_targets_moxie,-static-softmmu,-qemu_softmmu_targets_sh4,-qemu_softmmu_targets_alpha,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_s390x]
+# required by qemu (argument)
+>=media-libs/mesa-11.1.1 gles2
+# required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_sparc,-qemu_user_targets_microblaze,-qemu_user_targets_microblazeel,-qemu_user_targets_mips64,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_unicore32,-qemu_user_targets_alpha,-qemu_softmmu_targets_sh4eb,qemu_user_targets_x86_64,-qemu_user_targets_ppc64le,-qemu_softmmu_targets_microblaze,-qemu_user_targets_ppc,-qemu_softmmu_targets_mips,-qemu_user_targets_m68k,-qemu_user_targets_mips64el,-qemu_softmmu_targets_ppcemb,qemu_softmmu_targets_arm,-qemu_user_targets_cris,-qemu_softmmu_targets_sparc64,-qemu_user_targets_armeb,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_xtensaeb,qemu_user_targets_i386,-qemu_user_targets_mipsel,-qemu_user_targets_sparc64,qemu_user_targets_arm,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_mips64el,qemu_softmmu_targets_i386,-qemu_softmmu_targets_sh4,-qemu_user_targets_or32,-qemu_user_targets_mipsn32,-qemu_user_targets_tilegx,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_s390x,-qemu_user_targets_unicore32,-qemu_softmmu_targets_alpha,-qemu_user_targets_sparc,-qemu_softmmu_targets_moxie,-qemu_user_targets_sparc32plus,-qemu_user_targets_aarch64,-qemu_softmmu_targets_aarch64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_lm32,-qemu_user_targets_sh4,-qemu_user_targets_sh4eb,-qemu_softmmu_targets_tricore,-qemu_softmmu_targets_m68k,-qemu_user_targets_mipsn32el,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_mipsel,-static-softmmu,-qemu_user_targets_ppc64abi32,-qemu_user_targets_mips,-qemu_user_targets_s390x,-qemu_user_targets_ppc64,static-user]
+# required by qemu (argument)
+>=dev-libs/glib-2.46.2-r1 static-libs
+# required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_sparc,-qemu_user_targets_microblaze,-qemu_user_targets_microblazeel,-qemu_user_targets_mips64,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_unicore32,-qemu_user_targets_alpha,-qemu_softmmu_targets_sh4eb,qemu_user_targets_x86_64,-qemu_user_targets_ppc64le,-qemu_softmmu_targets_microblaze,-qemu_user_targets_ppc,-qemu_softmmu_targets_mips,-qemu_user_targets_m68k,-qemu_user_targets_mips64el,-qemu_softmmu_targets_ppcemb,qemu_softmmu_targets_arm,-qemu_user_targets_cris,-qemu_softmmu_targets_sparc64,-qemu_user_targets_armeb,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_xtensaeb,qemu_user_targets_i386,-qemu_user_targets_mipsel,-qemu_user_targets_sparc64,qemu_user_targets_arm,qemu_softmmu_targets_x86_64,-qemu_softmmu_targets_mips64el,qemu_softmmu_targets_i386,-qemu_softmmu_targets_sh4,-qemu_user_targets_or32,-qemu_user_targets_mipsn32,-qemu_user_targets_tilegx,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_s390x,-qemu_user_targets_unicore32,-qemu_softmmu_targets_alpha,-qemu_user_targets_sparc,-qemu_softmmu_targets_moxie,-qemu_user_targets_sparc32plus,-qemu_user_targets_aarch64,-qemu_softmmu_targets_aarch64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_lm32,-qemu_user_targets_sh4,-qemu_user_targets_sh4eb,-qemu_softmmu_targets_tricore,-qemu_softmmu_targets_m68k,-qemu_user_targets_mipsn32el,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_mipsel,-static-softmmu,-qemu_user_targets_ppc64abi32,-qemu_user_targets_mips,-qemu_user_targets_s390x,-qemu_user_targets_ppc64,static-user]
+# required by qemu (argument)
+>=sys-libs/zlib-1.2.8-r1 static-libs
+# required by app-emulation/qemu-2.5.0-r1::gentoo[-qemu_softmmu_targets_microblazeel,-qemu_softmmu_targets_sparc,-qemu_user_targets_microblaze,-qemu_user_targets_microblazeel,-qemu_user_targets_mips64,-qemu_softmmu_targets_ppc,-qemu_softmmu_targets_unicore32,-qemu_user_targets_alpha,-qemu_softmmu_targets_sh4eb,qemu_user_targets_x86_64,-qemu_user_targets_ppc64le,-qemu_softmmu_targets_microblaze,-qemu_user_targets_ppc,-qemu_softmmu_targets_mips,-qemu_user_targets_m68k,-qemu_user_targets_mips64el,-qemu_softmmu_targets_ppcemb,qemu_softmmu_targets_arm,-qemu_user_targets_cris,-qemu_softmmu_targets_sparc64,-qemu_user_targets_armeb,-qemu_softmmu_targets_ppc64,-qemu_softmmu_targets_xtensaeb,qemu_user_targets_i386,-qemu_user_targets_mipsel,-qemu_user_targets_sparc64,qemu_user_targets_arm,-qemu_softmmu_targets_mips64el,qemu_softmmu_targets_i386,-qemu_softmmu_targets_sh4,qemu_softmmu_targets_x86_64,-qemu_user_targets_or32,-qemu_user_targets_mipsn32,-qemu_user_targets_tilegx,-qemu_softmmu_targets_or32,-qemu_softmmu_targets_mips64,-qemu_softmmu_targets_s390x,-qemu_user_targets_unicore32,-qemu_softmmu_targets_alpha,-qemu_user_targets_sparc,-qemu_softmmu_targets_moxie,-qemu_user_targets_sparc32plus,-qemu_user_targets_aarch64,-qemu_softmmu_targets_aarch64,-qemu_softmmu_targets_xtensa,-qemu_softmmu_targets_lm32,-qemu_user_targets_sh4,-qemu_user_targets_sh4eb,-qemu_softmmu_targets_tricore,xattr,-qemu_softmmu_targets_m68k,-qemu_user_targets_mipsn32el,-qemu_softmmu_targets_cris,-qemu_softmmu_targets_mipsel,-static-softmmu,-qemu_user_targets_ppc64abi32,-qemu_user_targets_mips,-qemu_user_targets_s390x,-qemu_user_targets_ppc64,static-user]
+# required by qemu (argument)
+>=sys-apps/attr-2.4.47-r2 static-libs
+# required by app-emulation/docker-1.10.0::gentoo[seccomp]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libseccomp-2.3.0 static-libs
+# required by dev-qt/qt-creator-3.6.0::gentoo
+# required by dev-qt/qt-creator (argument)
+>=dev-libs/botan-1.10.12 threads
+# required by sys-devel/clang-3.8.0-r100::gentoo
+# required by =sys-devel/clang-3.8.0-r100 (argument)
+>=sys-devel/llvm-3.8.0 clang
+# required by sys-devel/clang-3.7.1-r100::gentoo
+# required by =sys-devel/clang-3.7.1-r100 (argument)
+=sys-devel/llvm-3.7.1 clang
+# required by sys-devel/clang-3.7.1-r100::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-3.7.1-r1 clang
+# required by dev-lang/rust-1.7.0-r100::gentoo[system-llvm]
+# required by dev-lang/rust (argument)
+>=sys-devel/llvm-3.7.1-r1 multitarget
+# required by dev-qt/qtprintsupport-5.5.1::gentoo
+# required by net-misc/dropbox-3.17.31::gentoo[X]
+# required by dropbox (argument)
+# required by net-misc/dropbox-3.17.31::gentoo[X]
+# required by dropbox (argument)
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libdrm-2.4.67 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libXdmcp-1.1.2-r1 abi_x86_32
+# required by sys-devel/gettext-0.19.7::gentoo
+# required by net-libs/gnutls-3.3.22::gentoo[nls]
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libXxf86vm-1.1.4 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[systemd]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=sys-apps/systemd-229 abi_x86_32
+# required by x11-libs/libXcomposite-0.4.4-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[xcomposite]
+# required by wine (argument)
+>=x11-proto/compositeproto-0.4.2-r1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[mp3]
+# required by wine (argument)
+>=media-sound/mpg123-1.23.3 abi_x86_32
+# required by media-libs/libsndfile-1.0.26::gentoo[-minimal]
+# required by media-sound/pulseaudio-8.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/flac-1.3.1-r1 abi_x86_32
+# required by x11-libs/libdrm-2.4.67::gentoo[video_cards_intel]
+# required by media-libs/mesa-11.1.2-r1::gentoo[-video_cards_i965,-video_cards_i915,video_cards_intel,-video_cards_ilo]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libpciaccess-0.13.4 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libSM-1.2.2-r1 abi_x86_32
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-libs/libXrender-0.9.9 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[xinerama]
+# required by wine (argument)
+>=x11-libs/libXinerama-1.1.3 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo[wayland]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=dev-libs/wayland-1.10.0-r1 abi_x86_32
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-proto/randrproto-1.5.0 abi_x86_32
+# required by net-nds/openldap-2.4.44::gentoo[-libressl,ssl,-gnutls]
+# required by app-emulation/wine-1.9.5::gentoo[ldap]
+# required by wine (argument)
+>=dev-libs/openssl-1.0.2g-r2 abi_x86_32
+# required by sys-devel/gettext-0.19.7::gentoo
+# required by net-libs/gnutls-3.3.22::gentoo[nls]
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=net-libs/gnutls-3.3.22 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/glproto-1.4.17-r1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[png]
+# required by wine (argument)
+>=media-libs/libpng-1.6.21 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-libs/libXrandr-1.5.0 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[lcms]
+# required by wine (argument)
+>=media-libs/lcms-2.7 abi_x86_32
+# required by virtual/pkgconfig-0-r1::gentoo
+# required by net-libs/gnutls-3.3.22::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=dev-util/pkgconfig-0.29.1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo[dri3]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/presentproto-1.0 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo[dri3]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/dri3proto-1.0 abi_x86_32
+# required by sys-libs/ncurses-6.0-r1::gentoo[gpm]
+# required by sys-devel/gettext-0.19.7::gentoo[ncurses]
+# required by net-libs/gnutls-3.3.22::gentoo[nls]
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=sys-libs/gpm-1.20.7-r2 abi_x86_32
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/xproto-7.0.28 abi_x86_32
+# required by media-libs/freetype-2.6.3::gentoo[bzip2]
+# required by media-libs/fontconfig-2.11.94::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[fontconfig]
+# required by wine (argument)
+>=app-arch/bzip2-1.0.6-r7 abi_x86_32
+# required by net-libs/gnutls-3.3.22::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=dev-libs/libtasn1-4.7 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=dev-libs/json-c-0.12 abi_x86_32
+# required by x11-libs/libdrm-2.4.67::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo[-video_cards_i965,-video_cards_i915,video_cards_intel,-video_cards_ilo]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=dev-libs/libpthread-stubs-0.3-r1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[fontconfig]
+# required by wine (argument)
+>=media-libs/fontconfig-2.11.94 abi_x86_32
+# required by dev-libs/libxslt-1.1.28-r5::gentoo[crypt]
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=dev-libs/libgcrypt-1.6.5 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libX11-1.6.3 abi_x86_32
+# required by x11-libs/libXfixes-5.0.1::gentoo
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/fixesproto-5.0-r1 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.4::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-proto/xf86vidmodeproto-2.3.1-r1 abi_x86_32
+# required by net-libs/gnutls-3.3.22::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=dev-libs/nettle-3.2 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-proto/xcb-proto-1.11 abi_x86_32
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=media-libs/mesa-11.1.2-r1 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-proto/xf86bigfontproto-1.2.0-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libxshmfence-1.2 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/libsndfile-1.0.26 abi_x86_32
+# required by media-plugins/alsa-plugins-1.1.1::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[alsa-plugin,alsa]
+# required by media-sound/mpg123-1.23.3::gentoo[pulseaudio]
+# required by app-emulation/wine-1.9.5::gentoo[mp3]
+# required by wine (argument)
+>=media-libs/alsa-lib-1.1.1 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[glib]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=dev-libs/glib-2.48.0 abi_x86_32
+# required by x11-libs/libSM-1.2.2-r1::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libICE-1.0.9 abi_x86_32
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=media-libs/glu-9.0.0-r1 abi_x86_32
+# required by net-print/cups-2.1.3-r1::gentoo[dbus]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=sys-apps/dbus-1.10.8-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libxcb-1.11.1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[xcomposite]
+# required by wine (argument)
+>=x11-libs/libXcomposite-0.4.4-r1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-libs/libXcursor-1.1.14 abi_x86_32
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-proto/inputproto-2.3.1 abi_x86_32
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-libs/libXext-1.3.3 abi_x86_32
+# required by net-libs/gnutls-3.3.22::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=virtual/pkgconfig-0-r1 abi_x86_32
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libXi-1.7.6 abi_x86_32
+# required by x11-libs/libXcursor-1.1.14::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-libs/libXfixes-5.0.1 abi_x86_32
+# required by sys-devel/llvm-3.7.1-r1::gentoo[libffi]
+# required by media-libs/mesa-11.1.2-r1::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=virtual/libffi-3.0.13-r1 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[ldap]
+# required by wine (argument)
+>=net-nds/openldap-2.4.44 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[nls]
+# required by wine (argument)
+>=sys-devel/gettext-0.19.7 abi_x86_32
+# required by media-libs/lcms-2.7::gentoo[tiff]
+# required by app-emulation/wine-1.9.5::gentoo[lcms]
+# required by wine (argument)
+>=media-libs/tiff-4.0.6 abi_x86_32
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libXau-1.0.8 abi_x86_32
+# required by x11-libs/libXdamage-1.1.4-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/damageproto-1.2.1-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-libs/libXdamage-1.1.4-r1 abi_x86_32
+# required by sys-apps/systemd-229::gentoo[lz4]
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=app-arch/lz4-0_p131 abi_x86_32
+# required by x11-libs/libXinerama-1.1.3::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[xinerama]
+# required by wine (argument)
+>=x11-proto/xineramaproto-1.2.1-r1 abi_x86_32
+# required by dev-libs/glib-2.48.0::gentoo[xattr]
+# required by media-sound/pulseaudio-8.0::gentoo[glib]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=sys-apps/attr-2.4.47-r2 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[xml]
+# required by wine (argument)
+>=dev-libs/libxslt-1.1.28-r5 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[asyncns]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-proto/kbproto-1.0.7 abi_x86_32
+# required by dev-libs/nettle-3.2::gentoo[gmp]
+# required by net-libs/gnutls-3.3.22::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo[ssl]
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=dev-libs/gmp-6.1.0 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=dev-libs/expat-2.1.1 abi_x86_32
+# required by dev-libs/libxml2-2.9.3::gentoo
+# required by sys-devel/llvm-3.7.1-r1::gentoo[xml,clang]
+# required by media-libs/mesa-11.1.2-r1::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=sys-libs/zlib-1.2.8-r1 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[tcpd]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=sys-apps/tcp-wrappers-7.6.22-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/xextproto-7.3.0 abi_x86_32
+# required by media-libs/libsndfile-1.0.26::gentoo[-minimal]
+# required by media-sound/pulseaudio-8.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/libvorbis-1.3.5 abi_x86_32
+# required by x11-libs/libXrender-0.9.9::gentoo
+# required by x11-libs/libXrandr-1.5.0::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[X]
+# required by wine (argument)
+>=x11-proto/renderproto-0.11.1-r1 abi_x86_32
+# required by virtual/jpeg-0-r2::gentoo
+# required by media-libs/tiff-4.0.6::gentoo[jpeg]
+# required by media-libs/lcms-2.7::gentoo[tiff]
+# required by app-emulation/wine-1.9.5::gentoo[lcms]
+# required by wine (argument)
+>=media-libs/libjpeg-turbo-1.4.2 abi_x86_32
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=virtual/opengl-7.0-r1 abi_x86_32
+# required by sys-apps/systemd-229::gentoo
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=sys-apps/util-linux-2.27.1 abi_x86_32
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-proto/recordproto-1.14.2-r1 abi_x86_32
+# required by media-libs/fontconfig-2.11.94::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[fontconfig]
+# required by wine (argument)
+>=media-libs/freetype-2.6.3 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[alsa-plugin,alsa]
+# required by media-sound/mpg123-1.23.3::gentoo[pulseaudio]
+# required by app-emulation/wine-1.9.5::gentoo[mp3]
+# required by wine (argument)
+>=media-plugins/alsa-plugins-1.1.1 abi_x86_32
+# required by dev-libs/libgcrypt-1.6.5::gentoo
+# required by sys-apps/systemd-229::gentoo[gcrypt]
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=dev-libs/libgpg-error-1.21 abi_x86_32
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-sound/pulseaudio-8.0 abi_x86_32
+# required by media-libs/lcms-2.7::gentoo[jpeg]
+# required by app-emulation/wine-1.9.5::gentoo[lcms]
+# required by wine (argument)
+>=virtual/jpeg-0-r2:0 abi_x86_32
+# required by virtual/libffi-3.0.13-r1::gentoo
+# required by sys-devel/llvm-3.7.1-r1::gentoo[libffi]
+# required by media-libs/mesa-11.1.2-r1::gentoo[llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=dev-libs/libffi-3.2.1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/xf86driproto-2.1.1-r1 abi_x86_32
+# required by dev-libs/libxslt-1.1.28-r5::gentoo
+# required by x11-libs/libxcb-1.11.1::gentoo
+# required by x11-libs/libX11-1.6.3::gentoo
+# required by x11-libs/libXtst-1.2.2::gentoo
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=dev-libs/libxml2-2.9.3 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[ncurses]
+# required by wine (argument)
+>=sys-libs/ncurses-6.0-r1 abi_x86_32
+# required by media-sound/pulseaudio-8.0::gentoo[X]
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=x11-libs/libXtst-1.2.2 abi_x86_32
+# required by sys-apps/systemd-229::gentoo
+# required by virtual/libudev-215-r1::gentoo
+# required by media-libs/mesa-11.1.2-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=sys-libs/libcap-2.25 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[cups]
+# required by wine (argument)
+>=net-print/cups-2.1.3-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=x11-proto/dri2proto-2.8-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo[-opencl,llvm]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=sys-devel/llvm-3.7.1-r1 abi_x86_32
+# required by media-libs/mesa-11.1.2-r1::gentoo[udev]
+# required by virtual/opengl-7.0-r1::gentoo
+# required by media-libs/glu-9.0.0-r1::gentoo
+# required by virtual/glu-9.0-r1::gentoo
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=virtual/libudev-215-r1 abi_x86_32
+# required by media-libs/libvorbis-1.3.5::gentoo
+# required by media-libs/libsndfile-1.0.26::gentoo[-minimal]
+# required by media-sound/pulseaudio-8.0::gentoo
+# required by media-plugins/alsa-plugins-1.1.1::gentoo[pulseaudio]
+>=media-libs/libogg-1.3.2 abi_x86_32
+# required by app-emulation/wine-1.9.5::gentoo[opengl]
+# required by wine (argument)
+>=virtual/glu-9.0-r1 abi_x86_32
+# required by dev-qt/qtwidgets-5.5.1-r1::gentoo
+# required by dev-qt/qtprintsupport-5.5.1::gentoo
+# required by net-misc/dropbox-3.17.31::gentoo[X]
+# required by dropbox (argument)
+>=dev-qt/qtgui-5.5.1-r1 -gtkstyle
+# required by sci-electronics/kicad-4.0.2::gentoo
+# required by kicad (argument)
+>=dev-libs/boost-1.58.0-r1 context
+# required by dev-qt/qtopengl-5.5.1::gentoo
+# required by net-misc/dropbox-3.17.31::gentoo[X]
+# required by net-misc/dropbox (argument)
+# required by dev-util/android-studio-1.5.1.0.141.2456560::gentoo
+# required by dev-util/android-studio (argument)
+=sys-libs/ncurses-5.9-r101 abi_x86_32
+# required by media-video/cheese-3.20.0::gnome
+# required by gnome-base/gnome-control-center-3.20.0::gnome[v4l]
+# required by gnome-base/gnome-shell-3.20.0::gnome
+# required by gnome-base/gdm-3.20.0::gnome
+>=media-libs/gst-plugins-base-1.6.3 theora
+# required by sys-devel/clang-3.6.2-r100::gentoo
+# required by dev-lang/rust-1.7.0-r100::gentoo[clang]
+# required by @selected
+# required by @world (argument)
+=sys-devel/llvm-3.6.2 clang
+# required by net-fs/samba-4.2.11::gentoo
+# required by gnome-base/gnome-control-center-3.18.2::gentoo[cups]
+# required by gnome-base/gnome-control-center (argument)
+>=sys-libs/ntdb-1.0-r1 python
+# required by sci-electronics/kicad-4.0.2-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/boost-1.60.0 python
+# required by gnome-base/gnome-control-center-3.18.2::gentoo[cups]
+# required by gnome-base/gnome-control-center (argument)
+>=net-fs/samba-4.2.11 client
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.11::gentoo
+# required by gnome-base/gnome-control-center-3.18.2::gentoo[cups]
+# required by gnome-base/gnome-control-center (argument)
+>=sys-libs/tevent-0.9.28 python
+# required by sys-libs/ldb-1.1.26::gentoo
+# required by net-fs/samba-4.2.11::gentoo
+# required by gnome-base/gnome-control-center-3.18.2::gentoo[cups]
+# required by gnome-base/gnome-control-center (argument)
+>=sys-libs/tdb-1.3.9 python
+# required by gnome-base/gnome-keyring-3.18.3::gentoo
+# required by gnome-base/libgnome-keyring-3.12.0::gentoo
+# required by gnome-base/libgnome-keyring (argument)
+>=app-crypt/pinentry-0.9.7 gnome-keyring
+# required by net-libs/signon-ui-0.15::gentoo
+# required by kde-apps/kaccounts-providers-15.12.3::gentoo
+# required by kde-apps/ktp-accounts-kcm-15.12.3::gentoo
+# required by kde-apps/plasma-telepathy-meta-15.12.3::gentoo
+# required by kde-apps/kdenetwork-meta-15.12.3-r2::gentoo[telepathy]
+# required by kde-apps/kdenetwork-meta (argument)
+>=net-libs/libproxy-0.4.11-r2 -kde

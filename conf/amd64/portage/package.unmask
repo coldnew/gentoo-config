@@ -1,0 +1,66 @@
+# required by =guile-2.0.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Marijn Schouten <hkBst@gentoo.org> (07 April 2011)
+# Masked for number of issues, but can be used to
+# test against if people are impatient ;P
+# Known issues:
+# - Broken emacs support (ulm has promised to look)
+# - doesn't build when boehm-gc is built without threads
+# - no SLOTting yet!
+#=dev-scheme/guile-2.0.0
+# required by dev-java/sun-jdk (argument)
+# /usr/portage/profiles/package.mask:
+# Tom Wijsman <TomWij@gentoo.org> (30 Jun 2013)
+# Sun JDK and JRE contain critical vulnerabilities and receive no further
+# updates; masking to make users aware of this, users that still need this
+# package and have no alternative can unmask at their own risk. See bug #473830.
+#
+# This is continued by Oracle Corporation, which has acquired Sun Microsystems
+# in early 2010; as per https://en.wikipedia.gentoo.org/wiki/Sun_acquisition_by_Oracle
+#
+# Users are suggested to upgrade to one of the newer Oracle packages like
+# dev-java/oracle-jdk-bin or dev-java/oracle-jre-bin or choose another
+# alternative we provide; eg. the IBM JDK/JRE or the open source IcedTea.
+#
+# Most of these packages provide a jce USE flag for those whom need the
+# Java Cryptographic Extension Unlimited Strength Policy USE flag; whether that
+# works depends from VM to VM, it seems to work for most except for the IBM VMs.
+=dev-java/sun-jdk-1.6.0.45
+# required by =sys-devel/clang-3.8.0-r100 (argument)
+# /usr/portage/profiles/package.mask:
+# Bernard Cafarelli <voyageur@gentoo.org> (27 Jan 2016)
+# New llvm version, masked for testing
+#=sys-devel/clang-3.8.0-r100
+# required by sys-devel/clang-3.8.0-r100::gentoo
+# required by =sys-devel/clang-3.8.0-r100 (argument)
+# /usr/portage/profiles/package.mask:
+# Bernard Cafarelli <voyageur@gentoo.org> (27 Jan 2016)
+# New llvm version, masked for testing
+#=sys-devel/llvm-3.8.0
+# required by sys-devel/clang-3.8.0-r100::gentoo
+# required by @selected
+# required by @world (argument)
+# /usr/portage/profiles/package.mask:
+# Bernard Cafarelli <voyageur@gentoo.org> (27 Jan 2016)
+# New llvm version, masked for testing
+#=sys-devel/llvm-3.8.0-r1
+# required by dev-scheme/guile-2.0.9-r1::lisp
+# required by @selected
+# required by @world (argument)
+# /var/lib/layman/lisp/profiles/package.mask:
+# Cyprien Nicolas (fulax) <c.cnicolas+gentoo@gmail.com> (24 Aug 2012)
+# Mask app-admin/eselect-guile and dev-scheme/guile-2.0.6 as well, for
+# the same reasons as below, wrt Bug #432526 by Juergen Rose and zmedico
+=app-admin/eselect-guile-1.2-r1
+# required by sys-devel/llvm-3.8.0-r1::gentoo[clang]
+# required by media-libs/mesa-11.2.1::gentoo[llvm]
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /usr/portage/profiles/package.mask:
+# Bernard Cafarelli <voyageur@gentoo.org> (27 Jan 2016)
+# New llvm version, masked for testing
+=sys-devel/clang-3.8.0-r100
+# required by =llvm-3.8.0-r1 (argument)
+# /usr/portage/profiles/package.mask:
+# Bernard Cafarelli <voyageur@gentoo.org> (27 Jan 2016)
+# New llvm version, masked for testing
+=sys-devel/llvm-3.8.0-r1
