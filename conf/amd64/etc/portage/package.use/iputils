@@ -655,3 +655,12 @@ net-misc/iputils -caps -filecaps
 # required by kde-apps/kdenetwork-meta-15.12.3-r2::gentoo[telepathy]
 # required by kde-apps/kdenetwork-meta (argument)
 >=net-libs/libproxy-0.4.11-r2 -kde
+# required by media-libs/fontconfig-ultimate-2015.08.01::gentoo
+# required by media-libs/fontconfig-ultimate (argument)
+>=media-libs/freetype-2.6.3-r1 infinality
+# required by kde-apps/ktp-call-ui-16.04.1::gentoo
+# required by kde-apps/plasma-telepathy-meta-16.04.1::gentoo[gstreamer]
+# required by kde-apps/kdenetwork-meta-16.04.1::gentoo[telepathy]
+# required by @selected
+# required by @world (argument)
+>=net-libs/telepathy-qt-0.9.6.1 farstream

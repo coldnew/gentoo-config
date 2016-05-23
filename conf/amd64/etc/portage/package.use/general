@@ -22,3 +22,9 @@ sys-block/gparted btrfs fat hfs ntfs
 www-client/firefox gtk3 pgo
 app-office/libreoffice gtk3
 app-i18n/fcitx gtk2 gtk3
+net-misc/tigervnc -xorgmodule server
+dev-qt/qt-creator clangcodemodel clangstaticanalyzer
+sys-devel/gcc jit
+kde-apps/dolphin thumbnail
+media-gfx/inkscape imagemagick postscript
+dev-lang/mono minimal
