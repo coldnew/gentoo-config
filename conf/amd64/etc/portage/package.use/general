@@ -28,3 +28,25 @@ sys-devel/gcc jit
 kde-apps/dolphin thumbnail
 media-gfx/inkscape imagemagick postscript
 dev-lang/mono minimal
+kde-apps/krdc vnc
+sys-libs/ncurses tinfo
+dev-util/monodevelop git -gnome qtcurve subversion
+sci-libs/vtk -qt4 qt5
+dev-java/oracle-jdk-bin javafx nsplugin
+net-mail/offlineimap ssl sqlite
+x11-misc/shutter drawing
+dev-vcs/git highlight subversion
+net-mail/mu -doc emacs -gui
+dev-util/ddd gnuplot readline
+dev-embedded/openocd cmsis-dap ftdi verbose-io stlink segger usb
+dev-lang/python sqlite
+dev-libs/crypto++ static-libs
+dev-scheme/racket X cairo futures jit plot threads
+games-engines/openmw devtools
+dev-games/mygui opengl -ogre tools plugins
+x11-proto/videoproto abi_x86_32
+app-emulation/vmware-workstation bundled-libs
+dev-util/trace-cmd gtk python udis86
+dev-lang/php gd
+dev-util/perf audit perl python slang
+app-emulation/qemu sdl2 ssh virgl 

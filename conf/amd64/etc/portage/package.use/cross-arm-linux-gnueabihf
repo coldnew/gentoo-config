@@ -1,0 +1,4 @@
+cross-arm-linux-gnueabihf/binutils -selinux -multilib
+cross-arm-linux-gnueabihf/linux-headers -selinux -multilib
+cross-arm-linux-gnueabihf/glibc -selinux -multilib
+cross-arm-linux-gnueabihf/gcc -selinux -boundschecking -d -gcj -gtk -libffi -mudflap -objc -objc++ -objc-gc -multilib

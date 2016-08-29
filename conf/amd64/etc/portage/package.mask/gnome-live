@@ -23,3 +23,8 @@
 =gnome-extra/sushi-9999
 =gnome-extra/yelp-xsl-9999
 =x11-libs/gtk+-9999
+=net-im/empathy-9999
+=gnome-extra/gnome-system-monitor-9999
+=gnome-extra/gnome-shell-extensions-9999
+=gnome-extra/gnome-power-manager-9999
+=media-gfx/gnome-screenshot-9999
