@@ -1,1 +1,3 @@
 =dev-qt/qtdbus-5.7.0
+>=dev-qt/qt-docs-5.7.0
+>=dev-python/PyQt5-5.7
