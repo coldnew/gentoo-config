@@ -10,6 +10,10 @@ import platform
 if os.getuid() != 0:
     raise Exception("This installer script need root privilege!!!")
 
+# Global variables
+script_path = os.path.dirname(os.path.realpath(sys.argv[0]))
+backupdir = os.path.join(script_path, "backup")
+
 # Dectet arch
 
 def os_arch():
@@ -23,19 +27,21 @@ exclude = [ 'install.py', '.git', '.directory', '.gitignore' ]
 
 
 def backup(src):
+    """Backup files to ./backup directory"""
     try:
         if os.path.exists(src):
-            os.rename(os.path.realpath(src), os.path.realpath(src + ".bk"))
-            print("backup %s to %s" % (os.path.realpath(src), os.path.realpath(src + ".bk")))
+            print("backup %s to %s" % (os.path.realpath(src), os.path.realpath(backupdir + src)))
+            os.makedirs(os.path.realpath(backupdir + src))
+            os.rename(os.path.realpath(src), os.path.realpath(backupdir + src))
     except OSError, e:
         print(type(e), str(e))
 
 
 def restore(src):
     try:
-        if os.path.exists(os.path.realpath(src + ".bk")):
-            os.rename(os.path.realpath(src + ".bk"), os.path.realpath(src))
-            print("restore backup %s to %s" % (os.path.realpath(src + ".bk"), os.path.realpath(src)))
+        if os.path.exists(os.path.realpath(backupdir + src)):
+            print("restore backup %s to %s" % (os.path.realpath(backupdir + src), os.path.realpath(src)))
+            os.rename(os.path.realpath(backupdir + src), os.path.realpath(src))
     except OSError, e:
         print(type(e), str(e))
 
@@ -77,6 +83,10 @@ def main(args):
 
 # Main
 if __name__ == "__main__":
+    # make sure backupdir exist
+    if not os.path.exists(backupdir):
+        os.mkdir(backupdir)
+
     parser = argparse.ArgumentParser(description = "Install coldnew's  gentoo-config to sstem.")
     parser.add_argument("--uninstall", action="store_true",
                         help="Uninstall all files in coldnew's gentoo-config")
