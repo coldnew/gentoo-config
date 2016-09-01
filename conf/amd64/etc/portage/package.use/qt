@@ -1,0 +1,4 @@
+
+# Solve qtwebkit phonon and phonon-gstreamer blocking
+# https://forums.gentoo.org/viewtopic-t-1048642.html
+<dev-qt/qtwebkit-4.10.4:4 -gstreamer
