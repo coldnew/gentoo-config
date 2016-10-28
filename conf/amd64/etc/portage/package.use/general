@@ -50,3 +50,5 @@ dev-util/trace-cmd gtk python udis86
 dev-lang/php gd
 dev-util/perf audit perl python slang
 app-emulation/qemu sdl2 ssh virgl 
+media-gfx/blender libav python_targets_python3_5
+media-video/libav theora
